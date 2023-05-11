@@ -1,38 +1,581 @@
-.App {
-  text-align: center;
+/*----------------------------------------Header----------------------------------------*/
+.my-headr-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.my-header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin-top: 2rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.my-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1rem;
+  height: 1rem;
+  background-color: #EEEBFF;
+  color: #7B61FF;
+  padding: 2rem;
+  border-radius: 50%;
+  transform: matrix(0.87, 0.49, -0.51, 0.86, 0, 0);
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header-nav {
+  display: flex;
+  gap: 5rem;
+  align-items: baseline;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header-nav h5 {
+
+  font-style: normal;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  color: #6b7280;
+  text-decoration: none;
+  padding: 0.75rem 2rem;
+  cursor: pointer;
+}
+.background {
+  border-radius: 6px;
+  background-color: #3730A3;
+}
+.background {
+  color: white;
+  font-style: normal;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  text-decoration: none;
+  padding: 0.75rem 2rem;
+  cursor: pointer;
+}
+
+.header-nav h5:hover {
+  border: 1px solid #3730A3;
+  border-radius: 6px;
+ /* background-color: #3730A3; */
+
+}
+
+/*----------------------------------------Header----------------------------------------*/
+/*----------------------------------------Personel----------------------------------------*/
+.personel-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.personel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin-top: 2rem;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 0.75rem;
+}
+
+.bio-image {
+  width: 26rem;
+  height: auto;
+  box-shadow: 0px 8px 28px -6px rgba(24, 39, 75, 0.12),
+    0px 18px 88px -4px rgba(24, 39, 75, 0.14);
+  border-radius: 18px;
+}
+
+.personel-left {
   display: flex;
   flex-direction: column;
+  gap: 3rem;
+}
+.name {
+  font-style: normal;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  color: #4338CA;
+}
+.name-underline{
+  display: flex;
   align-items: center;
+  gap: 1rem;
+}
+.underline {
+  margin-bottom: 0.6rem;
+  margin-bottom: 2.5rem;
+}
+.my-slogan {
+  font-style: normal;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 4.5rem;
+  line-height: 4.5rem;
+  color: #1F2937;
+}
+.introduction {
+  font-style: normal;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  color: #6B7280
+  ;
+  width: 37.25rem;
+}
+.contact-button {
+  display: flex;
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  padding: 0.75rem 1.25rem 0.75rem 0.75rem;
+  gap: 0.625rem;
+  width: 7.9rem;
+  height: 2.25rem;
+  border: 1px solid #3730A3;
+  background: #3730A3;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.contact-button .whiteText {
+  color: #ffffff;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  text-decoration: none;
+}
+.contact-button:hover {
+  cursor: pointer;
+}
+.github-button:hover {
+  background-color: #3730A3;
+  cursor: pointer;
   color: white;
 }
+.linkedin-button:hover {
+  background-color: #3730A3;
+  cursor: pointer;
+}
+.github-button {
+  font-family: 'Inter';
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0.75rem 1.25rem 0.75rem 0.75rem;
+  gap: 0.625rem;
+  width: 7.9rem;
+  height: 2.25rem;
+  background: #ffffff;
+  border: 1px solid #3730A3;
+  border-radius: 6px;
+}
+.linkedin-button {
+  display: flex;
+  font-family: 'Inter';
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0.75rem 1.25rem 0.75rem 0.75rem;
+  gap: 0.625rem;
+  width: 7.9rem;
+  height: 2.25rem;
+  background: #ffffff;
+  border: 1px solid #3730A3;
+  border-radius: 6px;
+}
+.buttons a {
+  font-size: 1.125rem;
+  color: #3730A3;
+  text-decoration: none;
+}
+/*----------------------------------------Personel----------------------------------------*/
+/*----------------------------------------Skills----------------------------------------*/
+    .my-skills-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 8rem;
+        flex-wrap: wrap;
+      }
+      
+      .skills-content {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+      }
+      
+      .skills-heading {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 48px;
+        color: #1f2937;
+        margin-bottom: 2rem;
+      }
+      
+      .skills-list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2rem;
+      }
+      
+      .skill {
+        display: flex;
+        flex-direction: column;
+      }
+      
+      .skill-heading {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+      
+      .skill-name {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 2rem;
+      }
+      
+      .skill-name h3 {
+        font-style: normal;
+        font-weight: 500;
+        font-family: 'Inter';
+        font-size: 30px;
+        line-height: 28px;
+        color: #4338CA;
+        margin-bottom: 1rem;
+      }
+      .two-part{
+        ;
+      }
+      .skill-description p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 0.75rem;
+        line-height: 1rem;
+        font-family: 'Inter';
+        color: #6B7280;
+        margin-bottom: 2rem;
+      }
+/*----------------------------------------Skills----------------------------------------*/
+/*----------------------------------------Profile----------------------------------------*/
+.my-profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+  }
+  .my-profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    border-top: 2px solid #BAB2E7;
+  }
+  .my-profile-infoCol {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+  }
+  .my-profile-heading {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+  .my-profile-infoText {
+    display: flex;
+  }
+  .my-profile-box {
+    display: flex;
+    flex-direction: column;
+  }
+  .my-right {
+    display: flex;
+    flex-direction: column;
+  }
+  .other-part {
+    display: flex;
+    
+  }
+  .my-keys {
+    display: flex;
+    flex-direction: column;
+    width: 12rem;
+    margin-right: 3rem;
+    align-items: flex-start;
+    justify-content: center;
 
-.App-link {
-  color: #61dafb;
+  }
+  .my-infos {
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+    margin-right: 3rem;
+    align-items: flex-start;
+    justify-content: center;
+
+  }
+  .my-content-heading {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.85rem;
+    line-height: 1.75rem;
+    color: #4338CA;
+    font-family: 'Inter';
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .my-keys p {
+    font-style: normal;
+    font-family: 'Inter';
+    color: #000000;
+    font-weight: 600;
+    font-size: 1.125rem;
+    margin-top: -5px;
+  }
+  .my-infos p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.125rem;
+    font-family: 'Inter';
+    margin-top: -5px;
+  
+  }
+  .my-about-box p {
+    font-style: normal;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 150%;
+  }
+  .my-about-box {
+    padding-right: 6rem;
+  } 
+/*----------------------------------------Profile----------------------------------------*/
+/*----------------------------------------Projects----------------------------------------*/
+  .my-projects-container {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.my-projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  border-top: 2px solid #BAB2E7;
 }
+.my-project-col {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
+}
+.my-pro {
+  display: flex;
+  gap: 4rem;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.my-cards {
+  display: flex;
+  flex-direction: column;
+  max-width: 27%;
+  margin-top: 2rem;
+}
+.my-programs {
+  display: flex;
+  gap: 10px;
+}
+.my-programs p {
+  display: flex;
+  font-family: 'Inter';
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 6px 18px 7px;
+  border: 1px solid #3730A3;
+  border-radius: 4px;
+}
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 11px;
+  margin-top: 2rem;
+}
+.my-description-project {
+  margin-bottom: 2rem;
+  font-family: 'Inter';
+  color: #6B7280;
+
+}
+.links a {
+  font-style: normal;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  color: #3730A3;
+}
+.my-projects-photos {
+  width: 18.75rem;
+  height: 11.25rem;
+} 
+/*----------------------------------------Projects----------------------------------------*/
+
+/*----------------------------------------Footer----------------------------------------*/
+.footerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f9f9f9;
+    height: 25.56rem;
+    margin-top: 5rem;
+  }
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin-top: 2rem;
+  }
+  .footerCol {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .footerInfo {
+    display: flex;
+    font-family: 'Inter';
+    justify-content: space-between;
+    margin-top: 7rem;
+  }
+  
+  .links-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px;
+    gap: 20px;
+  }
+  .lets {
+    font-style: normal;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 125%;
+  }
+  .mail {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    text-decoration-line: underline;
+    color: #0fa0a3;
+  }
+  .links-footer p {
+    font-style: normal;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #0a0a14;
+  }
+  .vercelFooter {
+    font-style: normal;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #0A0A14;
+    text-decoration: none;
+  }
+  .githubFooter {
+    font-style: normal;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #00AB6B;
+    text-decoration: none;
+  }
+  .linkedinFooter {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #0077b5;
+    text-decoration: none;
+  }
+  /*----------------------------------------Footer----------------------------------------*/
+  /*----------------------------------------Dark Mode----------------------------------------*/
+  body.dark-mode {
+    background-color: #252128;
+    color: #ffffff;
+  }
+  
+  .footerContainer.dark-mode {
+    background-color: #141414;
+    color: #ffffff;
+  }
+  
+  .lineWithName.dark-mode {
+    color: #b5e5e6;
+  }
+  .heading.dark-mode {
+    color: #b5e5e6;
+  }
+  .intro.dark-mode {
+    color: #ffffff;
+  }
+  
+  .links-footer p.dark-mode {
+    color: #ffffff;
+  }
+  .heading-list.dark-mode {
+    color: #ffffff;
+  }
+  .mail.dark-mode {
+    color: #b5e5e6;
+  }
