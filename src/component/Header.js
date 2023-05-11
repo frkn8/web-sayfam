@@ -13,7 +13,7 @@ export default function Header({ language }) {
             </Link>
           ) : (
             <Link to="skillsScroll" smooth={true} duration={700}>
-              <h5>Yetenekler</h5>
+              <h5>Yeteneklerrrrr</h5>
             </Link>
           )}
           {language === "en" ? (
