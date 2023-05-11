@@ -12,9 +12,12 @@ function App() {
     <div className="App">
       <Header/>
       <Personel/>
+      <div id="skillsScroll"></div>
       <Skills/>
       <Profile/>
+      <div id="projectsScroll"></div>
       <Projects/>
+      <div id="contactScroll"></div>
       <Footer/>
 
     </div>
