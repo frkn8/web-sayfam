@@ -14,7 +14,7 @@ export default function Header({ language }) {
           ) : (
             <Link to="skillsScroll" smooth={true} duration={700}>
               <h5>Yetenekler</h5>
-            </Link>
+            </Link >
           )}
           {language === "en" ? (
             <Link to="projectsScroll" smooth={true} duration={700}>
