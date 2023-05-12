@@ -20,7 +20,7 @@ const myData = [
   {
     projectName: "Film Project",
     projectAim:
-      "This project is a web application created using the React library. Redux is used for managing the application state. React Router is used for navigating between different pages. The user interface of the application is designed using a CSS. Used react-redux , react-router-dom , redux-logger , and @redux-devtools/extension.",
+      "This project is a web application created using the React library. Redux is used for managing the application state. React Router is used for navigating between different pages. The user interface of the application is designed using a CSS. Used react-redux , react-router-dom , redux-logger , and @redux-devtools/extension.@redux-devtools/extension",
     projectLanguage: ["React", "Redux", "Axios"],
     projectUrl: "https://films-8dg4zrrki-frkn8.vercel.app/movies",
     projectImage: "film.png",
