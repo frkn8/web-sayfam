@@ -16,7 +16,7 @@ export default function Footer({ language }) {
           )}
           <div className="footerInfo">
             <a href="mailto:frknozkan8@gmail.com" className="mail">
-              👉frknozkan8@gmail.com
+              👉 frknozkan8@gmail.com
             </a>
 
             <div className="links-footer">

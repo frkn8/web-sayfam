@@ -6,7 +6,7 @@ const myData = [
     projectAim:
       "React JS operates in a component-based structure that facilitates the design and management of the application's UI. These components represent parts of the application and ensure reusability. Additionally, a data structure is used to track the tasks and completion statuses added by users.sed to update this data structure and re-render.",
     projectLanguage: ["React", "Redux", "Axios"],
-    projectUrl: "https://vercel.com/frkn8/watchlist",
+    projectUrl: "https://watchlist-cusnx5kzg-frkn8.vercel.app/",
     projectImage: "wtchlist.png",
   },
   {
