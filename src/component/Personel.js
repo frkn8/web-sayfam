@@ -8,7 +8,7 @@ export default function Personel({ language }) {
           <div className="name">
             <div className="name-underline">
               <h5 className="underline">___________</h5>
-              <h5>Furkan Özkan</h5>
+              <h5>Furkan Ozkan</h5>
             </div>
           </div>
           {language === "en" ? (
@@ -18,15 +18,15 @@ export default function Personel({ language }) {
             </h1>
           ) : (
             <h1 className="my-slogan">
-              Yaratıcı Düşünür <br />
-              Minimalist Sever
+              Creative thinker <br />
+              Minimalism lover
             </h1>
           )}
           {language === "en" ? (
             <p className="introduction">
-             Merhaba, ben Furkan. Web yazılım geliştirme uzmanıyım. 
-             Etkili iletişim yöntemleri, takım çalışması, uyum ve motivasyon gibi 
-             yeterliliklere sahip bir Developer arıyorsanız iletişime geçin!
+             Hi I am Furkan. I am a web software developer. 
+             If you are looking for a Developer with competencies such as effective 
+             communication methods, teamwork, harmony and motivation, get in touch!
             </p>
           ) : (
             <p className="introduction">
@@ -41,7 +41,7 @@ export default function Personel({ language }) {
                 {language === "en" ? (
                   <p className="whiteText">Contact</p>
                 ) : (
-                  <p className="whiteText">İletişim</p>
+                  <p className="whiteText">Contact</p>
                 )}
               </Link>
             </div>
@@ -52,7 +52,7 @@ export default function Personel({ language }) {
                 target="_blank"
                 rel="noreferrer"
               >
-                Github
+                GitHub
               </a>
             </div>
             <div className="linkedin-button">
@@ -62,7 +62,7 @@ export default function Personel({ language }) {
                 target="_blank"
                 rel="noreferrer"
               >
-                Linkedin
+                LinkedIn
               </a>
             </div>
           </div>

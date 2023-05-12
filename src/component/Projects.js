@@ -63,7 +63,7 @@ export default function Projects({ language }) {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    {language === "en" ? "View Site" : "Siteyi Gör"}
+                    {language === "en" ? "View Site" : "Visit Site"}
                   </a>
                 </div>
               </div>

@@ -16,31 +16,31 @@ export default function Profile({ language }) {
                     {language === "en" ? (
                       <p>Birth Date</p> 
                     ) : (
-                      <p>Doğum Tarihi</p>
+                      <p>Birth Date</p>
                     )}
                     {language === "en" ? (
                       <p>City</p>
                     ) : (
-                      <p>Şehir</p>
+                      <p>City</p>
                     )}
                     {language === "en" ? (
                       <p>Education Status</p>
                     ) : (
-                      <p>Eğitim Durumu</p>
+                      <p>Education Status</p>
                     )}
                     {language === "en" ? (
                       <p>Position</p>
                     ) : (
-                      <p>Pozisyon</p>
+                      <p>Position</p>
                     )}
                   </div>
                   <div className="my-infos">
                     <p>13/07/1995</p>
-                    <p>İstanbul</p>
+                    <p>Istanbul</p>
                     {language === "en" ? (
                       <p>Near East University</p>
                     ) : (
-                      <p>Yakın Doğu Üniversitesi</p>
+                      <p>Near East University</p>
                     )}
                     <p>Information Systems Enginering</p>
                   </div>
@@ -51,7 +51,7 @@ export default function Profile({ language }) {
               {language === "en" ? (
                 <h3 className="my-content-heading">About Me</h3>
               ) : (
-                <h3 className="my-content-heading">Hakkımda</h3>
+                <h3 className="my-content-heading">About Me</h3>
               )}
               {language === "en" ? (
                 <p>
@@ -66,13 +66,13 @@ export default function Profile({ language }) {
               ) : (
                 <p>
                   {" "}
-                  Web sitesi oluşturma ve güncelleme, CRM ve Veritabanlarını
-                  yönetme ve Testing yetkinliğimin olduğu konular arasında yer
-                  alırken Bilişim ve Sistem Mühendisliği alanının getirdiği bu
-                  teknik becerilerin yanı sıra takım çalışması, uyum ve
-                  motivasyon gibi yeterliliklere sahip olmayı önemsiyor ve
-                  gelişimime katkı sunabileceğini inandığım fırsatları
-                  değerlendiriyorum.{" "}
+                  Creating and updating websites, managing CRM and Databases
+                  and Testing are among the subjects that I have competence, as
+                  well as these technical skills brought by the field of
+                  Information and Systems Engineering. I care about having
+                  competencies such as teamwork, harmony and motivation, and I
+                  take advantage of opportunities that I believe can contribute
+                  to my development.{" "}
                 </p>
               )}
             </div>

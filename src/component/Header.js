@@ -13,7 +13,7 @@ export default function Header({ language }) {
             </Link>
           ) : (
             <Link to="skillsScroll" smooth={true} duration={700}>
-              <h5>Yetenekler</h5>
+              <h5>Skills</h5>
             </Link >
           )}
           {language === "en" ? (
@@ -22,7 +22,7 @@ export default function Header({ language }) {
             </Link>
           ) : (
             <Link to="projectsScroll" smooth={true} duration={700}>
-              <h5>Projeler</h5>
+              <h5>Project</h5>
             </Link>
           )}
           {language === "en" ? (
@@ -31,7 +31,7 @@ export default function Header({ language }) {
             </Link>
           ) : (
             <Link to="contactScroll" smooth={true} duration={1000}>
-              <h4 className="background">Bana Ulaş</h4>
+              <h4 className="background">Contact Me</h4>
             </Link>
           )}
         </div>

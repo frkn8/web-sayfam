@@ -7,11 +7,11 @@ export default function Footer({ language }) {
         <div className="footerCol">
           {language === "en" ? (
             <h2 className="lets">
-             Bir sonraki projenizde <br /> benimle çalışmak ister misiniz?
+             Let’s work together on  <br /> your next product.
             </h2>
           ) : (
             <h2 className="lets">
-              Bir sonraki projenizde <br /> benimle çalışmak ister misiniz?
+              Let’s work together on  <br /> your next product.
             </h2>
           )}
           <div className="footerInfo">
